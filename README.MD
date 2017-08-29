@@ -29,7 +29,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
-// Import your library
+// Import html-editor library
 import { HtmlEditorModule } from 'html-editor';
 
 @NgModule({
