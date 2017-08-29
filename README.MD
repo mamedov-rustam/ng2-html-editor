@@ -47,3 +47,9 @@ import { HtmlEditorModule } from 'html-editor';
 })
 export class AppModule { }
 ```
+
+Now you can use component from this lib in the following manner:
+
+```html
+<html-editor>This text will disappear when app loaded</html-editor>
+```
