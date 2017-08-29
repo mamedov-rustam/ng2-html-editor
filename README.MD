@@ -5,15 +5,20 @@
 To install this library, run:
 
 ```bash
-$ npm install html-editor --save
+$ npm install && npm run build
 ```
 
 ## Consuming your library
 
-Once you have published your library to npm, you can import your library in any Angular application by running:
+Run from ng2-html-editor/dist directory 
 
 ```bash
-$ npm install html-editor
+$ sudo npm link
+```
+Run from your project directory 
+
+```bash
+$ npm link html-editor
 ```
 
 and then from your Angular `AppModule`:
@@ -42,21 +47,3 @@ import { HtmlEditorModule } from 'html-editor';
 })
 export class AppModule { }
 ```
-
-## Development
-
-To generate all `*.js`, `*.d.ts` and `*.metadata.json` files:
-
-```bash
-$ npm run build
-```
-
-To lint all `*.ts` files:
-
-```bash
-$ npm run lint
-```
-
-## License
-
-MIT © [rmamedov](mailto:mamedov.developer@gmail.com)
