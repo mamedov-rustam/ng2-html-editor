@@ -1,0 +1,13 @@
+<div style="width: 100%">
+	<div style="width: 30%; display: inline-block; margin-left: 3%; float:left">
+		<textarea style="width: 100%; height: 400px"
+			placeholder="Please enter you html." 
+			[(ngModel)]="htmlInput" (ngModelChange)="htmlInput = $event">
+		</textarea>
+	</div>
+	<div style="width: 60%; display: inline-block; margin-left: 3%;">
+		<iframe [srcdoc]="htmlInput | safeHtml" 
+				style="border: 1px solid lightgrey; min-height: 400px; width: 100%;">
+		</iframe>
+	</div>	
+</div>

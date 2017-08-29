@@ -1,0 +1,30 @@
+{
+  "name": "html-editor",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/repo"
+  },
+  "author": {
+    "name": "rmamedov",
+    "email": "mamedov.developer@gmail.com"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/username/repo/issues"
+  },
+  "main": "html-editor.umd.js",
+  "module": "html-editor.js",
+  "jsnext:main": "html-editor.js",
+  "typings": "html-editor.d.ts",
+  "peerDependencies": {
+    "@angular/core": "^4.0.0",
+    "@angular/forms": "^4.3.6",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4",
+    "@angular/platform-browser": "^4.0.0",
+  }
+}
