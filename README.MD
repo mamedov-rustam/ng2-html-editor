@@ -1,11 +1,11 @@
-# html-editor
+# ng2-html-editor
 
 ## Installation
 
 To install this library, run:
 
 ```bash
-$ npm install my-lib --save
+$ npm install html-editor --save
 ```
 
 ## Consuming your library
@@ -13,7 +13,7 @@ $ npm install my-lib --save
 Once you have published your library to npm, you can import your library in any Angular application by running:
 
 ```bash
-$ npm install my-lib
+$ npm install html-editor
 ```
 
 and then from your Angular `AppModule`:
